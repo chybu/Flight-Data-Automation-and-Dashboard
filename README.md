@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="example1.jpg" width="45%"/>
+  <img src="example2.jpg" width="45%"/>
+</p>
+
 # Flight Data Automation and Dashboard
 
 A complete end-to-end **Python system** for collecting, processing, storing, and visualizing real-time flight data from the Skyscanner API.  
