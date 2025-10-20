@@ -1,7 +1,5 @@
-<p align="center">
-  <img src="example1.jpeg" width="45%"/>
-  <img src="example2.jpeg" width="45%"/>
-</p>
+!(example1.jpeg)
+!(example2.jpeg)
 
 # Flight Data Automation and Dashboard
 
