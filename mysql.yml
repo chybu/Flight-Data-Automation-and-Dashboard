@@ -1,0 +1,13 @@
+services:
+  mysql:
+    image: mysql:8.0 
+    container_name: mysql-container
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: admin1234  # root user password
+      MYSQL_USER: user1               # optional: create a non-root user
+      MYSQL_PASSWORD: user1234        # optional: password for the above user
+    ports:
+      - "10000:3306"   # host:container mapping
+    volumes:
+      - xxxxxxxxx/mysql_data:/var/lib/mysql   # persists data locally

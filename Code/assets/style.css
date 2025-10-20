@@ -1,0 +1,71 @@
+#confirm-btn {
+    background-color: #151516;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#confirm-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgba(241, 241, 241, 0.9);
+}
+
+#find-btn {
+    background-color: #151516;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#find-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgba(241, 241, 241, 0.9);
+}
+#find-btn:disabled {
+    transform: none !important;   /* prevent scaling */
+    box-shadow: none !important;  /* optional: remove glow */
+    cursor: not-allowed;
+    opacity: 0.6;                  /* optional: show visually disabled */
+}
+
+#back-btn {
+    background-color: #151516;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#back-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgba(241, 241, 241, 0.9);
+}
+
+input[type="checkbox"] {
+    width: 25px;       /* checkbox width */
+    height: 25px;      /* checkbox height */
+    cursor: pointer;   /* pointer cursor */
+}
+
+#plot-btn {
+    background-color: #151516;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#plot-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgba(241, 241, 241, 0.9);
+}
