@@ -1,5 +1,5 @@
-!(example1.jpeg)
-!(example2.jpeg)
+![Start Page](start_page.jpeg)
+![Dashboard](dashboard.jpeg)
 
 # Flight Data Automation and Dashboard
 
