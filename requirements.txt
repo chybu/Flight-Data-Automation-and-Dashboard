@@ -8,3 +8,4 @@ selenium==4.37.0
 SQLAlchemy==2.0.44
 timezonefinder==8.1.0
 undetected_chromedriver==3.5.5
+statsmodels==0.14.6
